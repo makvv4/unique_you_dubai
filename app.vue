@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 isolate">
       <div>
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to our salon</h2>
         <p class="mt-4 text-gray-500">UNIQUE YOU is a beautiful and cozy beauty salon located in Dubai, UAE. We offer a wide range of services to meet our clients' beauty and self-care needs. Our team of professionals provides services for hair care, manicures and pedicures, eyelash extensions, eyebrows,permament makeup, microblading and shading. We strive to meet the needs of each client, and our team works hard to provide high- quality service and results to be proud of.</p>
@@ -55,6 +55,9 @@
         <img src="/img/2.jpg" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100" />
         <img src="/img/3.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100" />
         <img src="/img/4.jpg" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100" />
+      </div>
+      <div class="absolute inset-x-0 -top-100 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-100" aria-hidden="true">
+        <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
       </div>
     </div>
 
