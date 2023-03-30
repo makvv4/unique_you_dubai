@@ -131,4 +131,11 @@ const navigation = [
 ]
 
 const mobileMenuOpen = ref(false)
+
+useHead({
+  title: 'UNIQUE',
+  meta: [
+    { name: 'facebook-domain-verification', content: 'jl11mty3hxrk99sbnray4d3r9g6kyu' }
+  ],
+})
 </script>
