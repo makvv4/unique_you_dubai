@@ -49,7 +49,7 @@
               </svg>
             </a>
             <a
-              href="tel:+971507848986"
+              href="tel:+971508008462"
               class="flex content-center items-center text-gray-500 hover:underline hover:text-gray-900"
               ><Icon name="heroicons:device-phone-mobile-20-solid"
             /></a>
@@ -241,8 +241,8 @@
                 </li>
                 <li class="flex flex-row content-center items-center">
                   <Icon name="heroicons:device-phone-mobile" />
-                  <a href="tel:+971507848986" class="ml-2 hover:underline"
-                    >+971 50 784 8986</a
+                  <a href="tel:+971508008462" class="ml-2 hover:underline"
+                    >+971 50 800 8462</a
                   >
                 </li>
               </ul>
