@@ -7,16 +7,17 @@
         >
           <a href="#" class="flex items-center">
             <span
-              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-black"
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-myPrimary"
               >UNIQUE</span
             >
           </a>
+          <div class="link text-myPrimary cursor-pointer hover:underline hover:text-pink-500"><a href="/unique_pricing.pdf" target="_blank">Pricing</a></div>
           <div
             class="flex flex-row content-center items-center space-x-6 sm:justify-center sm:mt-0"
           >
             <a
               href="https://www.facebook.com/uniqueyoudubai?mibextid=LQQJ4d"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              class="text-myPrimary hover:text-pink-500 cursor-pointer"
             >
               <svg
                 class="w-5 h-5"
@@ -33,7 +34,7 @@
             </a>
             <a
               href="https://instagram.com/unique_you_downtown?igshid=YmMyMTA2M2Y="
-              class="text-gray-500 hover:text-gray-900"
+              class="text-myPrimary hover:text-pink-500 cursor-pointer"
             >
               <svg
                 class="w-5 h-5"
@@ -50,7 +51,7 @@
             </a>
             <a
               href="tel:+971508008462"
-              class="flex content-center items-center text-gray-500 hover:underline hover:text-gray-900"
+              class="flex content-center items-center text-myPrimary hover:underline hover:text-pink-500 cursor-pointer"
               ><Icon name="heroicons:device-phone-mobile-20-solid"
             /></a>
           </div>
@@ -59,6 +60,9 @@
     </header>
 
     <div class="relative isolate px-6 pt-14 lg:px-8">
+<!--      <video autoplay loop muted class="absolute -z-30 w-auto">-->
+<!--        <source src="/unique_video.mp4" type="video/mp4" />Your browser does not support the video tag.-->
+<!--      </video>-->
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -90,7 +94,7 @@
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="text-center">
           <h1
-            class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+            class="text-4xl font-bold tracking-tight text-myPrimary sm:text-6xl"
           >
             Stand out from the crowd with UNIQUE YOU - where every beauty is
             unique
@@ -99,12 +103,12 @@
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="https://b780875.alteg.io"
-              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              class="rounded-md bg-mySecondary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >Order service</a
             >
             <a
               href="https://instagram.com/unique_you_downtown?igshid=YmMyMTA2M2Y="
-              class="text-sm font-semibold leading-6 text-gray-900"
+              class="text-sm font-semibold leading-6 text-myPrimary hover:underline hover:text-pink-500"
               >Instagram <span aria-hidden="true">→</span></a
             >
           </div>
@@ -144,10 +148,10 @@
       class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 isolate"
     >
       <div>
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-bold tracking-tight text-myPrimary sm:text-4xl">
           Welcome to our salon
         </h2>
-        <p class="mt-4 text-gray-500">
+        <p class="mt-4 text-mySecondary">
           UNIQUE YOU is a beautiful and cozy beauty salon located in Dubai, UAE.
           We offer a wide range of services to meet our clients' beauty and
           self-care needs. Our team of professionals provides services for hair
@@ -318,6 +322,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Dialog, DialogPanel } from '@headlessui/vue'
+import PricingModal from "~/components/PricingModal.vue";
 
 const navigation = [
   { name: 'Product', href: '#' },
