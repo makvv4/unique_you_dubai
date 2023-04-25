@@ -11,7 +11,7 @@
               >UNIQUE</span
             >
           </a>
-          <div class="link text-myPrimary cursor-pointer hover:underline hover:text-pink-500"><a href="/unique_pricing.pdf" target="_blank">Pricing</a></div>
+          <div class="link text-gray-700 cursor-pointer hover:underline hover:text-black-950"><a href="/unique_pricing.pdf" target="_blank">Pricing</a></div>
           <div
             class="flex flex-row content-center items-center space-x-6 sm:justify-center sm:mt-0"
           >
@@ -94,7 +94,7 @@
       <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div class="text-center">
           <h1
-            class="text-4xl font-bold tracking-tight text-myPrimary sm:text-6xl"
+            class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl"
           >
             Stand out from the crowd with UNIQUE YOU - where every beauty is
             unique
@@ -151,7 +151,7 @@
         <h2 class="text-3xl font-bold tracking-tight text-myPrimary sm:text-4xl">
           Welcome to our salon
         </h2>
-        <p class="mt-4 text-mySecondary">
+        <p class="mt-4 text-gray-700">
           UNIQUE YOU is a beautiful and cozy beauty salon located in Dubai, UAE.
           We offer a wide range of services to meet our clients' beauty and
           self-care needs. Our team of professionals provides services for hair
