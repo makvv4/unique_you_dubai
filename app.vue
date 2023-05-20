@@ -60,9 +60,6 @@
     </header>
 
     <div class="relative isolate px-6 pt-14 lg:px-8">
-<!--      <video autoplay loop muted class="absolute -z-30 w-auto">-->
-<!--        <source src="/unique_video.mp4" type="video/mp4" />Your browser does not support the video tag.-->
-<!--      </video>-->
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
