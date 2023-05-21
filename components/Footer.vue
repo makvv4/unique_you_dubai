@@ -16,11 +16,11 @@
                             </li>
                             <li class="flex flex-row content-center items-center space-x-6">
                                 <a
-                                        href="https://www.facebook.com/uniqueyoudubai?mibextid=LQQJ4d"
+                                        href="https://www.facebook.com/profile.php?id=100092370561417"
                                         class="flex content-center items-center text-myPrimary hover:underline hover:text-pink-500 cursor-pointer"
                                 ><Icon name="simple-icons:facebook" /></a>
                                 <a
-                                        href="https://instagram.com/unique_you_downtown?igshid=YmMyMTA2M2Y="
+                                        href="https://instagram.com/unique_you_albarsha"
                                         class="flex content-center items-center text-myPrimary hover:underline hover:text-pink-500 cursor-pointer"
                                 ><Icon name="simple-icons:instagram" /></a>
                                 <a
@@ -30,11 +30,12 @@
                             </li>
                         </ul>
                     </div>
+
                     <div>
                         <h2
                                 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
                         >
-                            Dubai
+                            Downtown
                         </h2>
                         <ul class="text-gray-600 dark:text-gray-400">
                             <li class="mb-4">
@@ -43,11 +44,11 @@
                             </li>
                             <li class="flex flex-row content-center items-center space-x-6">
                                 <a
-                                        href="https://www.facebook.com/uniqueyoudubai?mibextid=LQQJ4d"
+                                        href="https://www.facebook.com/uniqueyoudubai"
                                         class="flex content-center items-center text-myPrimary hover:underline hover:text-pink-500 cursor-pointer"
                                 ><Icon name="simple-icons:facebook" /></a>
                                 <a
-                                        href="https://instagram.com/unique_you_downtown?igshid=YmMyMTA2M2Y="
+                                        href="https://instagram.com/unique_you_downtown"
                                         class="flex content-center items-center text-myPrimary hover:underline hover:text-pink-500 cursor-pointer"
                                 ><Icon name="simple-icons:instagram" /></a>
                                 <a
@@ -57,6 +58,7 @@
                             </li>
                         </ul>
                     </div>
+
                     <div>
                         <h2
                                 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
