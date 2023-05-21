@@ -24,7 +24,7 @@
         <video autoplay loop muted playsinline class="rounded-lg bg-gray-100">
             <source src="~/assets/videos/unique_video1.mp4" type="video/mp4">
         </video>
-        <video autoplay class="rounded-lg bg-gray-100">
+        <video autoplay loop muted playsinline class="rounded-lg bg-gray-100">
             <source src="~/assets/videos/unique_video2.mp4" type="video/mp4">
         </video>
       </div>
