@@ -45,6 +45,11 @@
                 Business Bay, Crystal Tower, Exponenta Business Center, M1
                 floor, Shop 7 Dubai, United Arab Emirates
               </li>
+              <li
+                class="link cursor-pointer text-myPrimary hover:underline mb-4"
+              >
+                <a href="/unique_pricing.pdf" target="_blank">Pricing</a>
+              </li>
               <li class="flex flex-row content-center items-center space-x-6">
                 <a
                   href="https://www.facebook.com/uniqueyoudubai"

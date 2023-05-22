@@ -10,11 +10,6 @@
             >UNIQUE</span
           >
         </a>
-        <div
-          class="link text-gray-700 cursor-pointer hover:underline hover:text-black-950"
-        >
-          <a href="/unique_pricing.pdf" target="_blank">Pricing</a>
-        </div>
       </div>
     </nav>
   </header>

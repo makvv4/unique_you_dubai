@@ -28,6 +28,16 @@
         "
       />
     </div>
+    <div
+      class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-[2px] sm:-top-40"
+      aria-hidden="true"
+    >
+      <img
+        class="relative left-[calc(50%)] -translate-x-1/2 opacity-20"
+        src="~/public/unique_logo.svg"
+        alt=""
+      />
+    </div>
     <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
       <div class="text-center">
         <h1 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">
