@@ -1,23 +1,19 @@
 <script>
 export default {
-  data () {
+  data() {
     return {
-      open: false
+      open: false,
     }
-  }
+  },
 }
 </script>
 
 <template>
-  <button @click="open = true">
-    Pricing
-  </button>
+  <button @click="open = true">Pricing</button>
   <Teleport to="body">
     <div v-if="open" class="modal p4">
       <p>Hello from the modal!</p>
-      <button @click="open = false">
-        Close
-      </button>
+      <button @click="open = false">Close</button>
     </div>
   </Teleport>
 </template>
