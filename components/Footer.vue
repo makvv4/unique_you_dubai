@@ -48,7 +48,7 @@
               <li
                 class="link cursor-pointer text-myPrimary hover:underline mb-4"
               >
-                <a href="/unique_pricing.pdf" target="_blank">Pricing</a>
+                <a href="/unique_pricing2.pdf" target="_blank">Pricing</a>
               </li>
               <li class="flex flex-row content-center items-center space-x-6">
                 <a
