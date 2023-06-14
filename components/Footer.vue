@@ -14,6 +14,13 @@
                 Al Barsha 1. Pinnacle Sheikh Zayed Road. 1 floor. shop 113
                 Dubai, United Arab Emirates
               </li>
+              <li
+                class="link cursor-pointer text-myPrimary hover:underline mb-4"
+              >
+                <a href="/unique_pricing_al_barsha.pdf" target="_blank"
+                  >Pricing</a
+                >
+              </li>
               <li class="flex flex-row content-center items-center space-x-6">
                 <a
                   href="https://www.facebook.com/profile.php?id=100092370561417"
